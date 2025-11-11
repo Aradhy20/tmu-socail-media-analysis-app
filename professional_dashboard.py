@@ -1994,9 +1994,8 @@ def main():
         try:
             # Try multiple paths for logo to ensure it works in different environments
             logo_paths = [
-                "assets/logo small black.png",
                 "logo small black.png",
-                "./assets/logo small black.png"
+                "./logo small black.png"
             ]
             
             logo_loaded = False
