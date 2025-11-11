@@ -1993,10 +1993,7 @@ def main():
         st.markdown('<div class="sidebar-logo">', unsafe_allow_html=True)
         try:
             # Try multiple paths for logo to ensure it works in different environments
-            logo_paths = [
-                "logo small black.png",
-                "./logo small black.png"
-            ]
+            logo_paths = "logo small black.png"
             
             logo_loaded = False
             for logo_path in logo_paths:
@@ -2224,3 +2221,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
